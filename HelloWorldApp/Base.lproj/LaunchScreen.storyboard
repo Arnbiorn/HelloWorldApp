@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igg-Ic-cmY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Igg-Ic-cmY">
                                 <rect key="frame" x="54.5" y="425" width="305.5" height="46"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="39"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
@@ -27,7 +27,8 @@
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <constraints>
                             <constraint firstItem="Igg-Ic-cmY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="E3W-mZ-V1b"/>
-                            <constraint firstItem="Igg-Ic-cmY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kj9-Wf-4gm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Igg-Ic-cmY" secondAttribute="trailing" constant="54" id="h0N-Hm-1dX"/>
+                            <constraint firstItem="Igg-Ic-cmY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54.5" id="sRm-Cm-c05"/>
                         </constraints>
                     </view>
                 </viewController>
